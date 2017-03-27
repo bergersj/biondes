@@ -25,10 +25,11 @@ body {
 }
 
 .secondSection {
-  background-color: black;
+  background: linear-gradient( rgba(241, 226, 93, 0.0), rgba(241, 226, 93, 0.0)),url('http://www.nellyspizza.com/wallpaper.jpg') no-repeat center center;
+  background-size: cover;
   height: 565px;
   width: 100%;
-  color: white;
+  font-weight: bolder;
   padding-top: 1%;
 }
 
@@ -36,14 +37,22 @@ body {
   width: 100%;
 }
 
-.thirdSection {
-  background-color: darkred;
+.secondSection span {
+  color: white;
+  letter-spacing: .3;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.subSection {
+  background: linear-gradient( rgba(241, 226, 93, 0.78), rgba(241, 226, 93, 0.78)),url('http://assets.bonappetit.com/photos/57accb78f1c801a1038bc784/master/w_1200,c_limit/party-ready-italian-heros.jpg') no-repeat center center;
+  background-size: cover;
   height: 700px;
   width: 100%;
 }
 
 .topNav{
-  position: fixed;
+  position: absolute;
   width: 100%;
 }
 
@@ -55,4 +64,41 @@ body {
 #topPhone {
   width: 100%;
   padding-right: 65%;
+}
+
+.pizzaSection {
+  background: linear-gradient( rgba(23, 23, 22, 0.88), rgba(23, 23, 22, 0.88)),url('http://images1.westword.com/imager/u/original/6610578/good_son_food08.jpg') no-repeat center center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  color: white;
+}
+
+.pizzaSection h3 {
+  font-size: 60pt;
+  margin: 0;
+}
+
+.toppings {
+  display: inline-block;
+  font-size: 20pt;
+  margin: 5%;
+}
+
+.reviewsSection {
+  background: linear-gradient( rgba(241, 226, 93, 0.0), rgba(241, 226, 93, 0.0)),url('https://wallpaperscraft.com/image/cardboard_box_texture_76557_3840x2160.jpg') no-repeat center center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+
+.zigzag{
+  box-shadow:inset 5px 5px 100px 5px rgba(0,0,0,.5);
+  transition: scale(1);
+  transition-duration: 3s;
+}
+
+.zigzag:hover {
+  transform: scale(1.03);
+  transition-duration: 3s;
 }
