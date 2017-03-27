@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  /*font-style: italic;*/
+}
+
+.topSection {
+  background: linear-gradient(
+                     rgba(20,20,20, .70),
+                     rgba(20,20,20, .70)),
+                     url('http://portobellopizzeria.com/wp-content/uploads/2014/08/ROUND-PIZZA.jpeg') no-repeat center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  color: white;
+  font-size: 16pt;
+}
+
+.topSection img {
+  margin-left: -200px;
+  margin-bottom: -330px;
+}
+
+.secondSection {
+  background-color: black;
+  height: 565px;
+  width: 100%;
+  color: white;
+  padding-top: 1%;
+}
+
+.secondSection img {
+  width: 100%;
+}
+
+.thirdSection {
+  background-color: darkred;
+  height: 700px;
+  width: 100%;
+}
+
+.topNav{
+  position: fixed;
+  width: 100%;
+}
+
+.topNav a{
+  text-decoration: none;
+  color: white;
+}
+
+#topPhone {
+  width: 100%;
+  padding-right: 65%;
+}
