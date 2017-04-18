@@ -1,117 +1,134 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Biondes</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
-  </head>
-  <body>
+</head>
+
+<body>
 
     <div class="topSection">
-      <div class="topNav">
-        <a href="#" id="topPhone">(313)581-0375</a>
-        <a href="#">7544 Greenfield Rd</a>
-      </div>
-      <img src="img/biondesLogo.png" alt="Biondes">
-      <p>super sub & pizza shop</p>
+        <div class="topNav row">
+            <a href="#" id="topPhone" class="col-sm-6">(313)581-0375</a>
+            <a href="#" id="topAddress" class="col-sm-6">7544 Greenfield Rd</a>
+        </div>
+        <img src="img/biondesLogo.png" alt="Biondes">
+        <p>super sub & pizza shop</p>
     </div>
 
-    <div class="secondSection zigzag">
-      <p><span>7544 Greenfield Rd</span></p>
-      <p><span>Dearborn, MI 48126</span></p>
-      <p><span>(313)581-0375</span></p>
-      <a href="https://www.google.com/maps/place/Biondes+Super+Sub+%26+Pizza/@42.3469611,-83.1959734,15z/data=!4m12!1m6!3m5!1s0x0:0x867fb7125518499f!2sBiondes+Super+Sub+%26+Pizza!8m2!3d42.3469611!4d-83.1959734!3m4!1s0x0:0x867fb7125518499f!8m2!3d42.3469611!4d-83.1959734"><img src="img/biondesMap.png" alt="map"></a>
+    <!-- add review ribbon/sticker on top section, tripadvisor 5/5, google reviews 4.4/5, facebook 4.6/5 -->
+
+
+    <!-- make functioning navbar, and make responsive for mobile -->
+
+    <!-- add hours of operation  -->
+
+    <div class="secondSection row">
+        <p><span>7544 Greenfield Rd</span></p>
+        <p><span>Dearborn, MI 48126</span></p>
+        <p><span>(313)581-0375</span></p>
+        <a href="https://www.google.com/maps/place/Biondes+Super+Sub+%26+Pizza/@42.3469611,-83.1959734,15z/data=!4m12!1m6!3m5!1s0x0:0x867fb7125518499f!2sBiondes+Super+Sub+%26+Pizza!8m2!3d42.3469611!4d-83.1959734!3m4!1s0x0:0x867fb7125518499f!8m2!3d42.3469611!4d-83.1959734"><img src="img/biondesMap.png" alt="map"></a>
     </div>
 
-    <div class="pizzaSection zigzag">
-      <h3>Pizza Toppings</h3>
-      <div class="toppings">
-          <p>pepperoni</p>
-          <p>ham</p>
-          <p>bacon</p>
-          <p>onions</p>
-          <p>hamburger</p>
-          <p>green peppers</p>
-          <p>Italian sausage</p>
-      </div>
-      <div class="toppings">
-        <p>mushrooms</p>
-        <p>hot peppers</p>
-        <p>black olives</p>
-        <p>pineapple</p>
-        <p>garlic crust</p>
-        <p>anchovies</p>
-      </div>
+    <div class="pizzaSection row">
+        <h3>Pizza Toppings</h3>
+        <div class="toppings col-sm-6">
+            <p>pepperoni</p>
+            <p>ham</p>
+            <p>bacon</p>
+            <p>onions</p>
+            <p>hamburger</p>
+            <p>green peppers</p>
+            <p>Italian sausage</p>
+        </div>
+        <div class="toppings col-sm-6">
+            <p>mushrooms</p>
+            <p>hot peppers</p>
+            <p>black olives</p>
+            <p>pineapple</p>
+            <p>garlic crust</p>
+            <p>anchovies</p>
+        </div>
     </div>
 
-    <div class="subSection zigzag">
-      <h3>Submarine Sandwiches</h3>
-      <div class="subs">
-        <p>Super Sub - Italian Meats and Cheese $5.10+</p>
-        <p>Buccaneer - Jumbo Super Sub $5.90+</p>
-        <p>Steak Sub $5.70+</p>
-        <p>Jumbo Steak Sub $6.70+</p>
-        <p>Steak and Cheese Sub $6.40+</p>
-        <p>Steak, Cheese and Mushroom Sub $7.10+</p>
-        <p>Jumbo Steak and Cheese Sub $7.40+</p>
-        <p>Steak and Mushroom Sub $6.40+</p>
-        <p>Pepper Steak Sub $6.60+</p>
-        <p>Pizza Steak Sub $6.60+</p>
-        <p>Bar-B-Q Steak Sub $6.40+</p>
-        <p>Bar-B-Q Steak and Cheese Sub $7.00+</p>
-        <p>Bar-B-Q Steak, Cheese and Mushroom Sub $7.60+</p>
-        <p>Bar-B-Q Steak, Cheese and G.P Sub $7.60+</p>
-      </div>
-      <div class="subs">
-        <p>Corned Beef Sub $6.50+</p>
-        <p>Rueben Sub $7.40+</p>
-        <p>Pastrami Sub $6.40+</p>
-        <p>Tuna Sub $6.00+</p>
-        <p>Tuna and Cheese Sub $6.70+</p>
-        <p>Ham Sub $5.39+</p>
-        <p>Ham and Cheese Sub $6.19+</p>
-        <p>Fried Ham Sub $5.39+</p>
-        <p>Fried Ham and Cheese Sub $6.19+</p>
-        <p>Hamburger Sub $5.10+</p>
-        <p>Cheeseburger Sub $5.80+</p>
-        <p>Pepper Burger Sub $5.80+</p>
-        <p>Pizza Burger Sub $6.00+</p>
-        <p>Hamburger and Mushroom Sub $5.80+</p>
-      </div>
-      <div class="subs">
-        <p>Sloppy Joe Sub $6.00+</p>
-        <p>Salami Sub $4.90+</p>
-        <p>Salami and Cheese Sub $5.60+</p>
-        <p>Bacon and Cheese Sub $5.90+</p>
-        <p>Vegetarian Sub $5.70+</p>
-        <p>Meatball and Cheese Sub $6.10+</p>
-        <p>Turkey, Ham and Cheese Sub $6.70+</p>
-        <p>Pizza Sub $6.70+</p>
-        <p>Turkey Sub $5.70+</p>
-        <p>Turkey Club $6.70+</p>
-        <p>Taco Sub $6.10+</p>
-        <p>Pepperoni and Cheese Sub $6.10+</p>
-        <p>Italian Sausage and Cheese Sub $5.90+</p>
-        <p>Extra Meat $1.40+</p>
-      </div>
+    <div class="subSection row">
+        <h3>Submarine Sandwiches</h3>
+        <div class="subs col-sm-4">
+            <p>Super Sub - Italian Meats and Cheese $5.10+</p>
+            <p>Buccaneer - Jumbo Super Sub $5.90+</p>
+            <p>Steak Sub $5.70+</p>
+            <p>Jumbo Steak Sub $6.70+</p>
+            <p>Steak and Cheese Sub $6.40+</p>
+            <p>Steak, Cheese and Mushroom Sub $7.10+</p>
+            <p>Jumbo Steak and Cheese Sub $7.40+</p>
+            <p>Steak and Mushroom Sub $6.40+</p>
+            <p>Pepper Steak Sub $6.60+</p>
+            <p>Pizza Steak Sub $6.60+</p>
+            <p>Bar-B-Q Steak Sub $6.40+</p>
+            <p>Bar-B-Q Steak and Cheese Sub $7.00+</p>
+            <p>Bar-B-Q Steak, Cheese and Mushroom Sub $7.60+</p>
+            <p>Bar-B-Q Steak, Cheese and G.P Sub $7.60+</p>
+        </div>
+        <div class="subs col-sm-4">
+            <p>Corned Beef Sub $6.50+</p>
+            <p>Rueben Sub $7.40+</p>
+            <p>Pastrami Sub $6.40+</p>
+            <p>Tuna Sub $6.00+</p>
+            <p>Tuna and Cheese Sub $6.70+</p>
+            <p>Ham Sub $5.39+</p>
+            <p>Ham and Cheese Sub $6.19+</p>
+            <p>Fried Ham Sub $5.39+</p>
+            <p>Fried Ham and Cheese Sub $6.19+</p>
+            <p>Hamburger Sub $5.10+</p>
+            <p>Cheeseburger Sub $5.80+</p>
+            <p>Pepper Burger Sub $5.80+</p>
+            <p>Pizza Burger Sub $6.00+</p>
+            <p>Hamburger and Mushroom Sub $5.80+</p>
+        </div>
+        <div class="subs col-sm-4">
+            <p>Sloppy Joe Sub $6.00+</p>
+            <p>Salami Sub $4.90+</p>
+            <p>Salami and Cheese Sub $5.60+</p>
+            <p>Bacon and Cheese Sub $5.90+</p>
+            <p>Vegetarian Sub $5.70+</p>
+            <p>Meatball and Cheese Sub $6.10+</p>
+            <p>Turkey, Ham and Cheese Sub $6.70+</p>
+            <p>Pizza Sub $6.70+</p>
+            <p>Turkey Sub $5.70+</p>
+            <p>Turkey Club $6.70+</p>
+            <p>Taco Sub $6.10+</p>
+            <p>Pepperoni and Cheese Sub $6.10+</p>
+            <p>Italian Sausage and Cheese Sub $5.90+</p>
+            <p>Extra Meat $1.40+</p>
+        </div>
     </div>
 
-    <div class="reviewsSection zigzag">
-      <h4>See our great reviews, and like us on:</h4>
+    <div class="reviewsSection row">
+        <h4>See our great reviews, and like us on:</h4>
 
-      <a href="https://www.facebook.com/pages/Biondess-Super-Sub-and-Pizza-Shop/113541195346121" id="facebook"><img src="https://www.seeklogo.net/wp-content/uploads/2011/06/facebook-icon-logo-vector-400x400.png" alt="facebook"></a>
+        <a href="https://www.facebook.com/pages/Biondess-Super-Sub-and-Pizza-Shop/113541195346121" id="facebook"><img src="https://www.seeklogo.net/wp-content/uploads/2011/06/facebook-icon-logo-vector-400x400.png" alt="facebook"></a>
 
-      <a href="https://www.tripadvisor.com/Restaurant_Review-g42130-d390164-Reviews-Biondes_s_Super_Sub_Pizza-Dearborn_Michigan.html" id="tripAdvisor"><img src="http://freevectorlogo.net/wp-content/uploads/2012/07/tripadvisor-logo-vector-01.png" alt="TripAdvisor"></a>
+        <a href="https://www.tripadvisor.com/Restaurant_Review-g42130-d390164-Reviews-Biondes_s_Super_Sub_Pizza-Dearborn_Michigan.html" id="tripAdvisor"><img src="http://freevectorlogo.net/wp-content/uploads/2012/07/tripadvisor-logo-vector-01.png" alt="TripAdvisor"></a>
 
-      <br>
+        <br>
 
-      <a href="https://www.google.com/maps/place/Biondes+Super+Sub+%26+Pizza/@42.3469611,-83.1959734,15z/data=!4m12!1m6!3m5!1s0x0:0x867fb7125518499f!2sBiondes+Super+Sub+%26+Pizza!8m2!3d42.3469611!4d-83.1959734!3m4!1s0x0:0x867fb7125518499f!8m2!3d42.3469611!4d-83.1959734" id="google"><img src="https://www.seeklogo.net/wp-content/uploads/2011/02/google-logo-vector.png" alt="google"></a>
+        <a href="https://www.google.com/maps/place/Biondes+Super+Sub+%26+Pizza/@42.3469611,-83.1959734,15z/data=!4m12!1m6!3m5!1s0x0:0x867fb7125518499f!2sBiondes+Super+Sub+%26+Pizza!8m2!3d42.3469611!4d-83.1959734!3m4!1s0x0:0x867fb7125518499f!8m2!3d42.3469611!4d-83.1959734"
+            id="google"><img src="https://www.seeklogo.net/wp-content/uploads/2011/02/google-logo-vector.png" alt="google"></a>
 
-      <a href="https://www.yelp.com/biz/biondess-super-sub-and-pizza-shop-dearborn" id="yelp"><img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/styleguide/1ea40efd80f5/assets/img/brand_guidelines/yelp_fullcolor.png" alt="yelp"></a>
+            <a href="https://www.yelp.com/biz/biondess-super-sub-and-pizza-shop-dearborn" id="yelp"><img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/styleguide/1ea40efd80f5/assets/img/brand_guidelines/yelp_fullcolor.png" alt="yelp"></a>
 
     </div>
 
-  </body>
+</body>
+
 </html>

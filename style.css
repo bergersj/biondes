@@ -2,7 +2,7 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
-  font-family: 'Exo', sans-serif;
+  font-family: 'Exo', sans-serif !important;
   font-weight: bold;
   /*font-style: italic;*/
 }
@@ -22,6 +22,10 @@ body {
 .topSection img {
   margin-left: -200px;
   margin-bottom: -330px;
+}
+
+.topSection p {
+  margin-top: 26px;
 }
 
 .secondSection {
@@ -54,12 +58,13 @@ body {
 
 .subs {
   display: inline-block;
+  margin-top: 20px;
 }
 
 
 .topNav{
   position: absolute;
-  width: 100%;
+  width: 90%;
 }
 
 .topNav a{
@@ -68,8 +73,12 @@ body {
 }
 
 #topPhone {
-  width: 100%;
-  padding-right: 65%;
+  float: left;
+}
+
+#topAddress {
+  float: right;
+  margin-right: -75px;
 }
 
 .pizzaSection {
@@ -81,20 +90,20 @@ body {
 }
 
 h3 {
-  font-size: 60pt;
+  font-size: 45pt !important;
   margin: 0;
 }
 
 h4 {
   margin: 0;
-  font-size: 30pt;
+  font-size: 30pt !important;
   padding-top: 50px;
 }
 
 .toppings {
-  display: inline-block;
+  /*display: inline-block;*/
   font-size: 20pt;
-  margin: 5%;
+  /*margin: 5%;*/
 }
 
 .reviewsSection {
@@ -111,13 +120,16 @@ h4 {
   margin: 25px;
 }
 
-.zigzag{
-  box-shadow:inset 5px 5px 100px 5px rgba(0,0,0,.5);
-  transition: scale(1);
-  transition-duration: 10s;
+/* Landscape phones and portrait tablets */
+@media(max-width:767px){
+  .subSection{
+    height: 1000px;
+  }
 }
 
-.zigzag:hover {
-  transform: scale(1.03);
-  transition-duration: 10s;
+/* Portrait phones and smaller */
+@media (max-width: 585px) {
+  .subSection {
+    height: 1475px;
+  }
 }
