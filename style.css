@@ -120,10 +120,26 @@ h4 {
   margin: 25px;
 }
 
+.stickerSection {
+  height: 300px;
+}
+
+.sticker {
+  margin-top: 25px;
+}
+
 /* Landscape phones and portrait tablets */
 @media(max-width:767px){
   .subSection{
     height: 1000px;
+  }
+
+  .stickerSection {
+    height: 400px;
+  }
+
+  .secondSection {
+    height: 450px;
   }
 }
 
@@ -132,4 +148,20 @@ h4 {
   .subSection {
     height: 1475px;
   }
+
+  .stickerSection {
+    height: 400px;
+  }
+
+  .secondSection {
+    height: 350px;
+  }
+
+  .topSection img {
+    margin-left: -150px;
+  }
+}
+
+.container-fluid {
+  width: 120% !important;
 }
