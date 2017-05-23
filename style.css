@@ -128,6 +128,15 @@ h4 {
   margin-top: 25px;
 }
 
+.extrasSection {
+  background-color: black;
+  color: white;
+}
+
+.details {
+  font-size: 8pt;
+}
+
 /* Landscape phones and portrait tablets */
 @media(max-width:767px){
   .subSection{
@@ -135,7 +144,7 @@ h4 {
   }
 
   .stickerSection {
-    height: 400px;
+    height: 450px;
   }
 
   .secondSection {
@@ -150,11 +159,11 @@ h4 {
 /* Portrait phones and smaller */
 @media (max-width: 585px) {
   .subSection {
-    height: 1475px;
+    height: 1510px;
   }
 
   .stickerSection {
-    height: 400px;
+    height: 420px;
   }
 
   .secondSection {
